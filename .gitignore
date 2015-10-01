@@ -13,5 +13,5 @@ Thumbs.db
 composer.phar
 storage/framework/sessions/*
 storage/framework/views/*
-storage/logs/
+storage/logs/*
 composer.lock
