@@ -29,7 +29,7 @@ class Kernel extends HttpKernel
         'auth' => \App\Http\Middleware\Authenticate::class,
         'auth.basic' => \Illuminate\Auth\Middleware\AuthenticateWithBasicAuth::class,
         'guest' => \App\Http\Middleware\RedirectIfAuthenticated::class,
-        'prefilters' => App\Http\Middleware\FiltersBefore::class,
-        'postfilters'=> App\Http\Middleware\FiltersAfter::class,
+        'prefilters' => \App\Http\Middleware\FiltersBefore::class,
+        'postfilters'=> \App\Http\Middleware\FiltersAfter::class,
     ];
 }
