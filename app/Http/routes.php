@@ -15,6 +15,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('jigen',['as' => 'jigen_sample', 'uses' => 'JigenController@jigenAction']);
+
+//Set Prefilter and Postfilter as Middleware
 Route::group(['middleware' => ['prefilters','postfilters']], function() {
     require __DIR__.'/Routes/routes_api.php';
 });
