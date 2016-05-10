@@ -6,11 +6,11 @@ Documentation for the framework can be found on the [Laravel website](http://lar
 New 5.1 Installation is found here https://laravel.com/docs/5.1/installation
 
 #Custom Features
-# Prefilters and Postfilter Installed
+## Prefilters and Postfilter Installed
  	Location : app/HTTP/Middleware
  	Files : FiltersAfter.php , FiltersBefore.php
 
-# Setup Module Capabilities
+## Setup Module Capabilities
 	Location : app/Modules
 	Files : ModuleServiceProvider.php
 	Tutorial : Module Approach https://packagist.org/packages/artem-schander/l5-modular
@@ -30,7 +30,7 @@ $php artisan serve
 #Exit Artisan Server after server 
 MacOS : Command + C 
 
-#More Commands located at http://laravel-recipes.com/categories/
+##More Commands located at http://laravel-recipes.com/categories/
 
 ## Sample Command after Setup 
 http://localhost:8000/jigen 
